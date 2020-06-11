@@ -24,7 +24,8 @@ jobs:
     # Runs a single command using the runners shell
     - name: Install NodeJS
       uses: actions/setup-node@v2-beta
-      with:
+      with:   # basciallyya ap loop ayk create karta hoo to uss ke next command ayk space ya 1 tab aga hoti ha
+      #  and hn - name  ,run, uses ya sub same line pa ata hn ok
         node-version: 12
       
     - name: Install Surge
